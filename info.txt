@@ -1,0 +1,9 @@
+nest new backend
+
+yarn add @nestjs/config class-transformer bcryptjs
+yarn add @typegoose/typegoose mongoose nestjs-typegoose
+yarn add -D @types/mongoose
+yarn add @nestjs/jwt @nestjs/passport class-validator passport passport-jwt
+yarn add -D @types/bcryptjs @types/passport-jwt
+yarn add @nestjs/serve-static app-root-path fs-extra
+yarn add -D @types/app-root-path @types/fs-extra @types/multer
